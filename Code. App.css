@@ -1,0 +1,70 @@
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nature-page {
+  width: 100%;
+}
+
+/* Common Section */
+.section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Text Content */
+.content {
+  background: rgba(0, 0, 0, 0.45);
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 22px;
+  max-width: 750px;
+}
+
+/* Background Images (Beautiful + Emotional) */
+.beauty {
+  background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+}
+
+.pain {
+  background-image: url("https://images.unsplash.com/photo-1587502537745-84c2f6f3b2ae");
+}
+
+.hope {
+  background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+}
+
+/* Final Message */
+.message {
+  background: linear-gradient(#1b5e20, #2e7d32);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.message h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.message p {
+  font-size: 20px;
+}
